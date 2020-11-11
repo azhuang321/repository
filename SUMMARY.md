@@ -5,6 +5,8 @@
 ## golang
 
 * [基础语法](golang/ji-chu-yu-fa/README.md)
-  * [go简介](golang/ji-chu-yu-fa/go-jian-jie.md)
+  * [简介与安装](golang/ji-chu-yu-fa/go-jian-jie.md)
+  * [命名规范](golang/ji-chu-yu-fa/ming-ming-gui-fan.md)
+  * [标识符与变量](golang/ji-chu-yu-fa/biao-shi-fu-yu-bian-liang.md)
   * [go mod](golang/ji-chu-yu-fa/go-mod.md)
 
