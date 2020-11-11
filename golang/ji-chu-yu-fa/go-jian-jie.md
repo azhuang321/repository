@@ -77,8 +77,6 @@ go version
 go env
 ```
 
-关于`go modules`的详细讲解位于本章12节。
-
 ### 三 HelloWorld
 
 新建文件`hello.go`，代码如下：
@@ -119,37 +117,5 @@ go run hello.go
 * Go语言定义的变量或者import的包如果没有使用到，代码不能编译通过
 * Go的注释使用 // 或者 /  __/
 
-### 五 开发工具推荐
 
-笔者推荐的go开发工具：
-
-* goland
-* vscode
-
-vscode的相关go插件会出现无法下载情况，解决办法：
-
-```text
-# 如果开启了go mod，则
-    go get -u -v github.com/ramya-rao-a/go-outline
-    go get -u -v github.com/acroca/go-symbols
-    go get -u -v golang.org/x/tools/cmd/guru
-    go get -u -v golang.org/x/tools/cmd/gorename
-    go get -u -v github.com/rogpeppe/godef
-    go get -u -v github.com/sqs/goreturns
-    go get -u -v github.com/cweill/gotests/gotests
-    go get -u -v golang.org/x/lint/golint
-
-# 如果未开启go mod，则需要进入cd $GOPATH/src ，使用 git clone 下载上述文件        
-
-# 安装
-cd $GOPATH
-    go install github.com/ramya-rao-a/go-outline
-    go install github.com/acroca/go-symbols
-    go install golang.org/x/tools/cmd/guru
-    go install golang.org/x/tools/cmd/gorename
-    go install github.com/rogpeppe/godef
-    go install github.com/sqs/goreturns
-    go install github.com/cweill/gotests/gotests
-    go install golang.org/x/lint/golint
-```
 
