@@ -4,6 +4,7 @@
 
 ## golang
 
+* [GO 好库推荐](golang/go-hao-ku-tui-jian.md)
 * [基础](golang/ji-chu-yu-fa/README.md)
   * [简介与安装](golang/ji-chu-yu-fa/go-jian-jie.md)
   * [命名规范](golang/ji-chu-yu-fa/ming-ming-gui-fan.md)
