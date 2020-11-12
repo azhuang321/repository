@@ -153,30 +153,7 @@ fmt.Printf("Value is: %v", c)
 
 \*\*\*\*
 
-### 三 关键字iota
-
-关键字iota声明初始值为0，每行递增1：
-
-```go
-const (
-    a = iota                // 0
-    b =    iota                 // 1        
-    c = iota                 // 2
-)
-
-const (
-    d = iota                //  0
-    e                 // 1        
-    f                 // 2
-)
-
-//如果iota在同一行，则值都一样
-const (
-    g = iota                //0
-    h,i,j = iota,iota,iota      // 1,1,1
-    // k = 3                    // 此处不能定义缺省常量，会编译错误    
-)
-```
+## 3. 关键字iota
 
 这个关键字用来声明`enum`的时候采用，它默认开始值是0，const中每增加一行加1：
 
