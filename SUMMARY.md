@@ -18,6 +18,9 @@
     * [4.运算符](golang/ji-chu-yu-fa/ji-chu/4.-yun-suan-fu.md)
     * [5.值类型](golang/ji-chu-yu-fa/ji-chu/5.-zhi-lei-xing/README.md)
       * [数值类型](golang/ji-chu-yu-fa/ji-chu/5.-zhi-lei-xing/shu-zhi-lei-xing.md)
+      * [字符串](golang/ji-chu-yu-fa/ji-chu/5.-zhi-lei-xing/zi-fu-chuan.md)
+      * [数组](golang/ji-chu-yu-fa/ji-chu/5.-zhi-lei-xing/shu-zu.md)
+      * [结构体](golang/ji-chu-yu-fa/ji-chu/5.-zhi-lei-xing/jie-gou-ti.md)
     * [go init](golang/ji-chu-yu-fa/ji-chu/go-init.md)
   * [go mod介绍使用](golang/ji-chu-yu-fa/go-mod.md)
 
