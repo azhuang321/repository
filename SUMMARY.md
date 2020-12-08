@@ -22,6 +22,8 @@
       * [结构体](golang/ji-chu-yu-fa/ji-chu/5.-zhi-lei-xing/jie-gou-ti.md)
     * [6.类型转换与别名](golang/ji-chu-yu-fa/ji-chu/6.-lei-xing-zhuan-huan-yu-bie-ming.md)
     * [7.常量](golang/ji-chu-yu-fa/ji-chu/7.-chang-liang.md)
+    * [8.引用类型](golang/ji-chu-yu-fa/ji-chu/8.-yin-yong-lei-xing/README.md)
+      * [切片](golang/ji-chu-yu-fa/ji-chu/8.-yin-yong-lei-xing/qie-pian.md)
     * [数值类型](golang/ji-chu-yu-fa/ji-chu/shu-zhi-lei-xing.md)
     * [go init](golang/ji-chu-yu-fa/ji-chu/go-init.md)
   * [go mod介绍使用](golang/ji-chu-yu-fa/go-mod.md)
