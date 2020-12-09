@@ -104,7 +104,7 @@ copy(s1,s2) 				//复制s2前三个元素到slice1前3位置
 copy(s2,s1)	 				//复制s1前三个元素到slice2
 ```
 
-注意：没有...会编译错误，默认第二个参数后是元素值，传入切片需要展开。如果追加的长度超过当前已分配的存储空间，切片会自动分配更大的内存。
+注意：不会编译错误，默认第二个参数后是元素值，传入切片需要展开。如果追加的长度超过当前已分配的存储空间，切片会自动分配更大的内存。
 
 **2.2 切片的一些简便操作**
 
@@ -168,19 +168,61 @@ type slice struct {
 ### 四 切片作为函数参数
 
 ```text
-func test(s []int) {
-	fmt.Printf("test---%p\n", s) // 打印与main函数相同的地址
-	s = append(s, 1, 2, 3, 4, 5)
-	fmt.Printf("test---%p\n", s) // 一旦append的数据超过切片长度，则会打印新地址
-	fmt.Println("test---", s)    // [0 0 0 1 2 3 4 5]
+func test(s []int)  {
+	fmt.Printf("slice address : %p",s)
+	fmt.Println()
+	s = append(s,4,5,6)
+	fmt.Printf("after change slice address : %p",s)
+	fmt.Println()
+	fmt.Println(s)
 }
 
-func main() {
-
-	s1 := make([]int, 3)
-	test(s1)
-	fmt.Printf("main---%p\n", s1) // 不会因为test函数内的append而改变
-	fmt.Println("main---", s1)    // [ 0 0 0]
+func main()  {
+	s := []int{1,2,3}
+	fmt.Printf("original slice address : %p",s)
+	fmt.Println()
+	fmt.Println(s)
+	test(s)
 }
+
+# print-------
+#original slice address : 0xc0000b6000
+#[1 2 3]
+#slice address : 0xc0000b6000
+#after change slice address : 0xc0000ac060
+#[1 2 3 4 5 6]
+```
+
+```go
+func test(s *[]int)  {
+	fmt.Printf("slice address : %p",*s)
+	fmt.Println()
+	*s = append(*s,4,5,6)
+	fmt.Printf("after change slice address : %p",*s)
+	fmt.Println()
+	fmt.Println(s)
+}
+
+func main()  {
+	s := []int{1,2,3}
+	fmt.Printf("original slice address : %p",s)
+	fmt.Println()
+	fmt.Println(s)
+	test(&s)
+	fmt.Printf("after change slice : %v",s)
+	fmt.Println()
+	fmt.Printf("after change slice address : %p",s)
+}
+
+
+
+//original slice address : 0xc00001a0a0
+//[1 2 3]
+//slice address : 0xc00001a0a0
+//after change slice address : 0xc000018150
+//&[1 2 3 4 5 6]
+//after change slice : [1 2 3 4 5 6]
+//after change slice address : 0xc000018150
+
 ```
 

@@ -17,6 +17,7 @@
     * [3.流程控制](golang/ji-chu-yu-fa/ji-chu/3.-liu-cheng-kong-zhi.md)
     * [4.运算符](golang/ji-chu-yu-fa/ji-chu/4.-yun-suan-fu.md)
     * [5.值类型](golang/ji-chu-yu-fa/ji-chu/5.-zhi-lei-xing/README.md)
+      * [数值类型](golang/ji-chu-yu-fa/ji-chu/5.-zhi-lei-xing/shu-zhi-lei-xing.md)
       * [字符串](golang/ji-chu-yu-fa/ji-chu/5.-zhi-lei-xing/zi-fu-chuan.md)
       * [数组](golang/ji-chu-yu-fa/ji-chu/5.-zhi-lei-xing/shu-zu.md)
       * [结构体](golang/ji-chu-yu-fa/ji-chu/5.-zhi-lei-xing/jie-gou-ti.md)
@@ -24,7 +25,8 @@
     * [7.常量](golang/ji-chu-yu-fa/ji-chu/7.-chang-liang.md)
     * [8.引用类型](golang/ji-chu-yu-fa/ji-chu/8.-yin-yong-lei-xing/README.md)
       * [切片](golang/ji-chu-yu-fa/ji-chu/8.-yin-yong-lei-xing/qie-pian.md)
-    * [数值类型](golang/ji-chu-yu-fa/ji-chu/shu-zhi-lei-xing.md)
+      * [map](golang/ji-chu-yu-fa/ji-chu/8.-yin-yong-lei-xing/map.md)
+      * [指针](golang/ji-chu-yu-fa/ji-chu/8.-yin-yong-lei-xing/zhi-zhen.md)
     * [go init](golang/ji-chu-yu-fa/ji-chu/go-init.md)
   * [go mod介绍使用](golang/ji-chu-yu-fa/go-mod.md)
 
