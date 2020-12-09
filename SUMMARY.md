@@ -27,6 +27,7 @@
       * [切片](golang/ji-chu-yu-fa/ji-chu/8.-yin-yong-lei-xing/qie-pian.md)
       * [map](golang/ji-chu-yu-fa/ji-chu/8.-yin-yong-lei-xing/map.md)
       * [指针](golang/ji-chu-yu-fa/ji-chu/8.-yin-yong-lei-xing/zhi-zhen.md)
-    * [go init](golang/ji-chu-yu-fa/ji-chu/go-init.md)
+    * [9.函数](golang/ji-chu-yu-fa/ji-chu/9.-han-shu/README.md)
+      * [go init](golang/ji-chu-yu-fa/ji-chu/9.-han-shu/go-init.md)
   * [go mod介绍使用](golang/ji-chu-yu-fa/go-mod.md)
 
