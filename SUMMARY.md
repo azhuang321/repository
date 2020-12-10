@@ -29,5 +29,8 @@
       * [指针](golang/ji-chu-yu-fa/ji-chu/8.-yin-yong-lei-xing/zhi-zhen.md)
     * [9.函数](golang/ji-chu-yu-fa/ji-chu/9.-han-shu/README.md)
       * [go init](golang/ji-chu-yu-fa/ji-chu/9.-han-shu/go-init.md)
+    * [10.面对对象](golang/ji-chu-yu-fa/ji-chu/10.-mian-dui-dui-xiang/README.md)
+      * [构造函数与方法](golang/ji-chu-yu-fa/ji-chu/10.-mian-dui-dui-xiang/gou-zao-han-shu-yu-fang-fa.md)
+      * [三大特性](golang/ji-chu-yu-fa/ji-chu/10.-mian-dui-dui-xiang/san-da-te-xing.md)
   * [go mod介绍使用](golang/ji-chu-yu-fa/go-mod.md)
 
