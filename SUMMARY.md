@@ -36,5 +36,8 @@
     * [11. 文件操作](golang/ji-chu-yu-fa/ji-chu/11.-wen-jian-cao-zuo.md)
     * [12.时间操作](golang/ji-chu-yu-fa/ji-chu/12.-shi-jian-cao-zuo.md)
     * [13.反射](golang/ji-chu-yu-fa/ji-chu/13.-fan-she.md)
+  * [并发编程](golang/ji-chu-yu-fa/bing-fa-bian-cheng/README.md)
+    * [简略](golang/ji-chu-yu-fa/bing-fa-bian-cheng/jian-lve.md)
+    * [多进程](golang/ji-chu-yu-fa/bing-fa-bian-cheng/duo-jin-cheng.md)
   * [go mod介绍使用](golang/ji-chu-yu-fa/go-mod.md)
 
