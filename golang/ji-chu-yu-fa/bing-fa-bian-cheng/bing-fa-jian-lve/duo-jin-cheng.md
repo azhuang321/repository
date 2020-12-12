@@ -207,7 +207,7 @@ Go支持的IPC方法有：管道、信号、socket。
 
 Go模拟管道的实现：
 
-```text
+```go
 	cmd1 := exec.Command("ps", "aux")
 	cmd2 := exec.Command("grep", "apipe")
 
@@ -240,7 +240,7 @@ Go模拟管道的实现：
 
 信号是IPC中唯一一种异步的通信方法，本质是用软件模拟硬件的中断机制，例如：在命令行终端按下某些快捷键，就会挂起或停止正在运行的程序。Go中的ginal包提供了相关操作。
 
-```text
+```go
 	sigRecv := make(chan os.Signal, 1)                      // 创建接收通道
 	sigs := []os.Signal{syscall.SIGINT, syscall.SIGQUIT}    // 创建信号类型
 	signal.Notify(sigRecv, sigs...)
