@@ -42,7 +42,7 @@ Goroutines 是在 Golang 中执行并发任务的方式，不过要切记：
 
 > Goroutines仅存在于 Go 运行时而不存在于 OS 中，因此需要 Go调度器（GoRuntimeScheduler） 来管理它们的生命周期。
 
-Go运行时为此维护了三个C结构（[https://golang.org/src/runtime/runtime2.go）：](https://golang.org/src/runtime/runtime2.go%EF%BC%89%EF%BC%9A)
+Go运行时为此维护了三个C结构\( [https://golang.org/src/runtime/runtime2.go](https://golang.org/src/runtime/runtime2.go%EF%BC%89%EF%BC%9A) \)
 
 * G 结构：表示单个 Goroutine，包含跟踪其堆栈和当前状态所需的对象。还包含自己负责的代码的引用。
 * M 结构：表示 OS 线程。包含一些对象指针，例如全局可执行的 Goroutines 队列，当前运行的 Goroutine，它自己的缓存以及对 Go 调度器的引用。
@@ -114,7 +114,9 @@ Go协程的特点：
 
 在Go中对上述两种方式都进行了实现，但是Go不推荐共享数据方式，推荐channel的方式进行协程通信。因为多个 goroutine 为了争抢数据，容易发生竞态问题，会造成执行的低效率，使用队列的方式是最高效的， channel 就是一种队列一样的结构。
 
-如图所示： [![](https://github.com/overnote/over-golang/raw/master/images/go/02-04.svg)](https://github.com/overnote/over-golang/blob/master/images/go/02-04.svg)
+如图所示： 
+
+![](https://github.com/overnote/over-golang/raw/master/images/go/02-04.svg)
 
 channel特性：
 

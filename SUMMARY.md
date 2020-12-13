@@ -44,5 +44,6 @@
       * [非阻塞IO](golang/ji-chu-yu-fa/bing-fa-bian-cheng/bing-fa-jian-lve/fei-zu-sai-io.md)
       * [协程](golang/ji-chu-yu-fa/bing-fa-bian-cheng/bing-fa-jian-lve/xie-cheng.md)
       * [并发对比](golang/ji-chu-yu-fa/bing-fa-bian-cheng/bing-fa-jian-lve/bing-fa-dui-bi.md)
+    * [goroutine](golang/ji-chu-yu-fa/bing-fa-bian-cheng/goroutine.md)
   * [go mod介绍使用](golang/ji-chu-yu-fa/go-mod.md)
 
