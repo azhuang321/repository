@@ -60,4 +60,7 @@
     * [数据结构概述](golang/shu-ju-jie-gou-yu-suan-fa/1.-gai-shu/shu-ju-jie-gou-gai-shu.md)
     * [算法概述](golang/shu-ju-jie-gou-yu-suan-fa/1.-gai-shu/suan-fa-gai-shu.md)
     * [大O表示法](golang/shu-ju-jie-gou-yu-suan-fa/1.-gai-shu/daobiao-shi-fa.md)
+  * [2.数组](golang/shu-ju-jie-gou-yu-suan-fa/2.-shu-zu/README.md)
+    * [数组概述](golang/shu-ju-jie-gou-yu-suan-fa/2.-shu-zu/shu-zu-gai-shu.md)
+    * [动态数组](golang/shu-ju-jie-gou-yu-suan-fa/2.-shu-zu/dong-tai-shu-zu.md)
 
