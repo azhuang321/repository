@@ -55,4 +55,9 @@
       * [sync包的其他API](golang/ji-chu-yu-fa/bing-fa-bian-cheng/shu-ju-tong-bu/sync-bao-de-qi-ta-api.md)
       * [原子操作](golang/ji-chu-yu-fa/bing-fa-bian-cheng/shu-ju-tong-bu/yuan-zi-cao-zuo.md)
   * [go mod介绍使用](golang/ji-chu-yu-fa/go-mod.md)
+* [数据结构与算法](golang/shu-ju-jie-gou-yu-suan-fa/README.md)
+  * [1.概述](golang/shu-ju-jie-gou-yu-suan-fa/1.-gai-shu/README.md)
+    * [数据结构概述](golang/shu-ju-jie-gou-yu-suan-fa/1.-gai-shu/shu-ju-jie-gou-gai-shu.md)
+    * [算法概述](golang/shu-ju-jie-gou-yu-suan-fa/1.-gai-shu/suan-fa-gai-shu.md)
+    * [大O表示法](golang/shu-ju-jie-gou-yu-suan-fa/1.-gai-shu/daobiao-shi-fa.md)
 
