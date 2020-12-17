@@ -85,4 +85,13 @@
       * [栈的顺序存储实现](golang/shu-ju-jie-gou-yu-suan-fa/4.-zhan-yu-dui-lie/zhan/zhan-de-shun-xu-cun-chu-shi-xian.md)
       * [栈的链式存储实现](golang/shu-ju-jie-gou-yu-suan-fa/4.-zhan-yu-dui-lie/zhan/zhan-de-lian-shi-cun-chu-shi-xian.md)
       * [两栈共享空间实现](golang/shu-ju-jie-gou-yu-suan-fa/4.-zhan-yu-dui-lie/zhan/liang-zhan-gong-xiang-kong-jian-shi-xian.md)
+    * [队列](golang/shu-ju-jie-gou-yu-suan-fa/4.-zhan-yu-dui-lie/dui-lie/README.md)
+      * [概述](golang/shu-ju-jie-gou-yu-suan-fa/4.-zhan-yu-dui-lie/dui-lie/gai-shu.md)
+      * [队列链式存储的实现](golang/shu-ju-jie-gou-yu-suan-fa/4.-zhan-yu-dui-lie/dui-lie/dui-lie-lian-shi-cun-chu-de-shi-xian.md)
+      * [循环队列实现](golang/shu-ju-jie-gou-yu-suan-fa/4.-zhan-yu-dui-lie/dui-lie/xun-huan-dui-lie-shi-xian.md)
+    * [栈与队列的应用](golang/shu-ju-jie-gou-yu-suan-fa/4.-zhan-yu-dui-lie/zhan-yu-dui-lie-de-ying-yong.md)
+  * [5.串与广义表](golang/shu-ju-jie-gou-yu-suan-fa/5.-chuan-yu-guang-yi-biao/README.md)
+    * [串的简介](golang/shu-ju-jie-gou-yu-suan-fa/5.-chuan-yu-guang-yi-biao/chuan-de-jian-jie.md)
+    * [查找子串](golang/shu-ju-jie-gou-yu-suan-fa/5.-chuan-yu-guang-yi-biao/cha-zhao-zi-chuan.md)
+    * [KMP模式匹配算法](golang/shu-ju-jie-gou-yu-suan-fa/5.-chuan-yu-guang-yi-biao/kmp-mo-shi-pi-pei-suan-fa.md)
 
