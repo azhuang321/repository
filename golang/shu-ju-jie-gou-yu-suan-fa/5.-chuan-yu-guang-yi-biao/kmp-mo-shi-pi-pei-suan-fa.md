@@ -48,7 +48,7 @@ KMP算法（克努特-莫里斯-普拉特算法）解决了上述问题，告别
 
 * next数组是什么：将子串各个位置的索引值变化记录到一个数组中
 * next数组的长度：即子串的长度
-* value值：从左到当前索引值截取到的一个新的字符串，这个字符串的前缀、后缀最长交集的长度
+* value值：从左到当前索引值截取到的一个新的字符串，这个字符串的前缀、后缀最长交集的**长度**
 * next元素的值：value值-1，为了和代码对应
 
 示例：当`T="ababaca"`
@@ -58,6 +58,28 @@ KMP算法（克努特-莫里斯-普拉特算法）解决了上述问题，告别
 | 索引j | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
 | value\] | 0 | 0 | 1 | 2 | 3 | 0 | 1 |
 | next\[j\] | -1 | -1 | 0 | 1 | 2 | -1 | 0 |
+
+```markup
+Aba:1
+a ab
+a ba
+
+Abab:2
+a ab aba
+b ab bab
+
+Ababa:3
+a ab aba abab
+a ba aba baba
+
+Ababac:0
+a ab aba abab ababa
+c ac bac abac babac
+
+Ababaca:1
+a ab aba abab ababa ababac
+a ca aca baca abaca babaca
+```
 
 对于目标字符串`T=ababaca`，长度是7，所以`next[0]，next[1]，next[2]，next[3]，next[4]，next[5]，next[6]`分别计算的是 `a，ab，aba，abab，ababa，ababac，ababaca`的相同的最长前缀和最长后缀的长度。由于`a，ab，aba，abab，ababa，ababac，ababaca`的相同的最长前缀和最长后缀是`“”，“”，“a”，“ab”，“aba”，“”，“a”`,所以next数组的值是`[-1,-1,0,1,2,-1,0]`
 
@@ -91,7 +113,7 @@ func kmp(haystack string, needle string) int {
 }
 
 //original getNext function
-func getNextBetter(str string) []int {
+func getNext(str string) []int {
 	var next = make([]int, len(str))
 	next[0] = -1
 
@@ -111,7 +133,7 @@ func getNextBetter(str string) []int {
 }
 
 //better getNext function
-func getNext(str string) []int {
+func getNextBetter(str string) []int {
 	var next = make([]int, len(str))
 	next[0] = -1
 
@@ -140,4 +162,8 @@ KMP解释：
  [https://blog.csdn.net/starstar1992/article/details/54913261/](https://blog.csdn.net/starstar1992/article/details/54913261/)  
 [https://www.cnblogs.com/yjiyjige/p/3263858.html](https://www.cnblogs.com/yjiyjige/p/3263858.html)  
 [https://blog.csdn.net/v\_july\_v/article/details/7041827](https://blog.csdn.net/v_july_v/article/details/7041827)
+
+[https://www.youtube.com/watch?v=ViqecFWleug](https://www.youtube.com/watch?v=ViqecFWleug)
+
+
 
