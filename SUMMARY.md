@@ -93,5 +93,6 @@
   * [5.串与广义表](golang/shu-ju-jie-gou-yu-suan-fa/5.-chuan-yu-guang-yi-biao/README.md)
     * [串的简介](golang/shu-ju-jie-gou-yu-suan-fa/5.-chuan-yu-guang-yi-biao/chuan-de-jian-jie.md)
     * [查找子串](golang/shu-ju-jie-gou-yu-suan-fa/5.-chuan-yu-guang-yi-biao/cha-zhao-zi-chuan.md)
-    * [KMP模式匹配算法](golang/shu-ju-jie-gou-yu-suan-fa/5.-chuan-yu-guang-yi-biao/kmp-mo-shi-pi-pei-suan-fa.md)
+    * [KMP模式匹配算法](golang/shu-ju-jie-gou-yu-suan-fa/5.-chuan-yu-guang-yi-biao/kmp-mo-shi-pi-pei-suan-fa/README.md)
+      * [关于KMP算法的理解](golang/shu-ju-jie-gou-yu-suan-fa/5.-chuan-yu-guang-yi-biao/kmp-mo-shi-pi-pei-suan-fa/guan-yu-kmp-suan-fa-de-li-jie.md)
 
