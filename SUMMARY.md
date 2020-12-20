@@ -95,4 +95,5 @@
     * [查找子串](golang/shu-ju-jie-gou-yu-suan-fa/5.-chuan-yu-guang-yi-biao/cha-zhao-zi-chuan.md)
     * [KMP模式匹配算法](golang/shu-ju-jie-gou-yu-suan-fa/5.-chuan-yu-guang-yi-biao/kmp-mo-shi-pi-pei-suan-fa/README.md)
       * [关于KMP算法的理解](golang/shu-ju-jie-gou-yu-suan-fa/5.-chuan-yu-guang-yi-biao/kmp-mo-shi-pi-pei-suan-fa/guan-yu-kmp-suan-fa-de-li-jie.md)
+  * [6.树](golang/shu-ju-jie-gou-yu-suan-fa/6.-shu.md)
 
